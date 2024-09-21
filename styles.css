@@ -73,7 +73,6 @@ body {
 .grid-item {
     width: calc(33.33% - 10px);
     height: 150px;
-    /* زادت الارتفاع لتناسب المحتوى */
     background-color: #bbb;
     display: flex;
     flex-direction: column;
@@ -81,5 +80,4 @@ body {
     justify-content: center;
     padding: 10px;
     text-align: center;
-    /* لضبط النص في المنتصف */
 }
