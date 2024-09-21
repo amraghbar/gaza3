@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.header .logo,
+.header .search-bar,
+.header .user-info {
+    flex: 1;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.sidebar {
+    flex: 0.2;
+    background-color: #555;
+    color: white;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex: 0.8;
+    padding: 10px;
+    background-color: #eaeaea;
+    gap: 10px;
+}
+
+.content-main {
+    flex: 0.7;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.content-sidebar {
+    flex: 0.3;
+    background-color: #999;
+    padding: 10px;
+}
+
+.grid-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.grid-item {
+    width: calc(33.33% - 10px);
+    height: 150px;
+    /* زادت الارتفاع لتناسب المحتوى */
+    background-color: #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    /* لضبط النص في المنتصف */
+}
