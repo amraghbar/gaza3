@@ -4,46 +4,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Layout</title>
+    <title>Company Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <!-- Header -->
-        <div class="header">
-            <div class="logo">شركة XYZ</div>
-            <div class="search-bar">شريط البحث</div>
-            <div class="user-info">معلومات المستخدم</div>
-        </div>
-
-        <!-- Main Content -->
-        <div class="main-content">
-            <!-- Sidebar -->
-            <div class="sidebar">
-                قائمة جانبية
+    <header>
+        <nav>XYZ Corporation</nav>
+    </header>
+    <main>
+        <div class="main-left">
+            <div class="main-head">
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+                <i class="fa-solid fa-arrow-right"></i>
             </div>
-
-            <!-- Content -->
-            <div class="content">
-                <div class="content-main">المحتوى الرئيسي</div>
-                <div class="content-sidebar">شريط جانبي في المحتوى</div>
+            <div class="main-view">
+                <h2>Our Services</h2>
+                <p>We offer a wide range of business solutions to help your company grow.</p>
+            </div>
+            <div class="card-items">
+                <div class="item">
+                    <div class="photo" style="background-image: url('service1.jpg');"></div>
+                    <div class="text">Business Consulting</div>
+                    <div class="text">We provide expert advice to help you navigate your business challenges.</div>
+                </div>
+                <div class="item">
+                    <div class="photo" style="background-image: url('service2.jpg');"></div>
+                    <div class="text">Market Analysis</div>
+                    <div class="text">Get the insights you need to stay ahead of your competitors.</div>
+                </div>
+                <div class="item">
+                    <div class="photo" style="background-image: url('service3.jpg');"></div>
+                    <div class="text">Digital Solutions</div>
+                    <div class="text">Innovative software solutions tailored to your business needs.</div>
+                </div>
+                <div class="item">
+                    <div class="photo" style="background-image: url('service4.jpg');"></div>
+                    <div class="text">Financial Planning</div>
+                    <div class="text">Achieve your financial goals with our comprehensive planning services.</div>
+                </div>
+                <div class="item">
+                    <div class="photo" style="background-image: url('service5.jpg');"></div>
+                    <div class="text">Project Management</div>
+                    <div class="text">Efficient and effective project management for timely delivery.</div>
+                </div>
+                <div class="item">
+                    <div class="photo" style="background-image: url('service6.jpg');"></div>
+                    <div class="text">Customer Support</div>
+                    <div class="text">24/7 support to assist you with any inquiries or issues.</div>
+                </div>
+                <!-- Repeat for more items if needed -->
             </div>
         </div>
-
-        <!-- Grid Section -->
-        <div class="grid-section">
-            <div class="grid-item">منتج 1<br>وصف قصير <button>شراء</button></div>
-            <div class="grid-item">منتج 2<br>وصف قصير <button>شراء</button></div>
-            <div class="grid-item">منتج 3<br>وصف قصير <button>شراء</button></div>
-            <div class="grid-item">منتج 4<br>وصف قصير <button>شراء</button></div>
-            <div class="grid-item">منتج 5<br>وصف قصير <button>شراء</button></div>
-            <div class="grid-item">منتج 6<br>وصف قصير <button>شراء</button></div>
-            <div class="grid-item">منتج 7<br>وصف قصير <button>شراء</button></div>
-            <div class="grid-item">منتج 8<br>وصف قصير <button>شراء</button></div>
-            <div class="grid-item">منتج 9<br>وصف قصير <button>شراء</button></div>
+        <div class="main-right">
+            <div class="right-header">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="left-view">
+                <h3>Latest News</h3>
+                <p>XYZ Corporation just launched a new product line focused on AI solutions.</p>
+            </div>
+            <div class="left-caption">Innovation is our core.</div>
+            <div class="cards">
+                <div class="left-card">
+                    <div class="left-photo" style="background-image: url('ceo.jpg');"></div>
+                    <div class="left-text">
+                        <div class="text">CEO: John Doe</div>
+                        <div class="text">Leading the company with over 20 years of experience in the tech industry.
+                        </div>
+                        <div class="text">Location: 123 Business Ave, Cityville</div>
+                    </div>
+                </div>
+                <div class="left-card">
+                    <div class="left-photo" style="background-image: url('office.jpg');"></div>
+                    <div class="left-text">
+                        <div class="text">Office Hours: 9 AM - 6 PM</div>
+                        <div class="text">Feel free to visit us or schedule an appointment online.</div>
+                        <div class="text">Email: contact@xyzcorp.com</div>
+                    </div>
+                </div>
+                <div class="left-card">
+                    <div class="left-photo" style="background-image: url('ceo.jpg');"></div>
+                    <div class="left-text">
+                        <div class="text">CEO: John Doe</div>
+                        <div class="text">Leading the company with over 20 years of experience in the tech industry.
+                        </div>
+                        <div class="text">Location: 123 Business Ave, Cityville</div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>
